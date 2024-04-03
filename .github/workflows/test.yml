@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: CCI-IntegrationDeveloper/app-properties-checkout
-          path: app-properties
+          path: app-property
 
       - name: Print Success Message
         run: |
