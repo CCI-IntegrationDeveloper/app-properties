@@ -10,8 +10,8 @@ jobs:
       - name: Checkout App Properties Repository
         uses: actions/checkout@v2
         with:
-          repository: CCI-IntegrationDeveloper/app-properties-checkout
-          path: main/app-property.txt
+          repository: CCI-IntegrationDeveloper/app-properties-checkout/main
+          path: app-property.txt
 
       - name: Print Success Message
         run: |
