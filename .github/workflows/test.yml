@@ -16,4 +16,4 @@ jobs:
       - name: Print Success Message
         run: |
           echo "App Properties Repository has been checked out successfully!"
-          echo ${{github.workspace}}/app-property.txt
+          echo ${{github.workspace}}/Datatest
