@@ -11,8 +11,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: CCI-IntegrationDeveloper/app-proprties-checkout
-          path: Test
+          path: app-property.txt
 
       - name: Print Success Message
         run: |
           echo "App Properties Repository has been checked out successfully!"
+          echo ${{github.workspace}}/app-property.txt
