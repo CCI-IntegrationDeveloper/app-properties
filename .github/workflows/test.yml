@@ -15,4 +15,4 @@ jobs:
 
       - name: Print Success Message
         run: |
-          echo "Workspace id" ${{api.instanceId}}
+          echo "Workspace id" ${{'api.instanceId'}}
