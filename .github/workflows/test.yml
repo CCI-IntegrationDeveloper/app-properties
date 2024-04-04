@@ -17,4 +17,4 @@ jobs:
         run: |
           echo "App Properties Repository has been checked out successfully!"
           echo ${{github.workspace}}/Datatest
-          echo ${{api.instanceId}}
+          echo "Workspace id" ${{api.instanceId}}
