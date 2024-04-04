@@ -15,6 +15,4 @@ jobs:
 
       - name: Print Success Message
         run: |
-          echo "App Properties Repository has been checked out successfully!"
-          echo ${{github.workspace}}/Datatest
           echo "Workspace id" ${{api.instanceId}}
